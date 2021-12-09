@@ -1,0 +1,34 @@
+/* .navbar{
+    overflow: hidden;
+    position: -webkit-sticky;
+    top: 0;
+    width: 98.8%;
+    margin: 5px;
+    text-align: center;
+    background-color:#805746;
+} */
+
+header{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    overflow: hidden;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:#805746;
+    font-family: 'Amiri', serif;
+}
+
+.home_link{
+    text-decoration: none;
+}
+
+.about_link{
+    text-decoration: none;
+}
+
+.contact_link{
+    text-decoration: none;
+}
