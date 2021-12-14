@@ -1,34 +1,69 @@
-/* .navbar{
-    overflow: hidden;
+.container{
     position: -webkit-sticky;
+    position: sticky;
     top: 0;
-    width: 98.8%;
-    margin: 5px;
-    text-align: center;
-    background-color:#805746;
+    clear: both;
+    /* z-index assures this container stays on top of everything else and doesn't bleed text when scrolling down  */
+    z-index: 1;
+}
+
+/* .init_header{
+    color: #ffffff;
+    background-color: #000000;
 } */
+
+.nw_logo{
+    height: 30px;
+    float: left;
+}
 
 header{
     font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    height: 30px;
 }
 
 .navbar{
-    display: flex;
-    overflow: hidden;
-    position: -webkit-sticky;
-    top: 0;
-    background-color:#805746;
+    background-color:#002A5E;
     font-family: 'Amiri', serif;
+    text-align: right;
+    height: 30px;
+    width: 100%;
+    clear: both;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* z-index assures this container stays on top of everything else and doesn't bleed text when scrolling down */
+    z-index: 1;
 }
 
-.home_link{
+.nav_link{
     text-decoration: none;
+    padding: 10px;
 }
 
-.about_link{
-    text-decoration: none;
+.nav_link:hover{
+    color: #ffffff;
 }
 
-.contact_link{
-    text-decoration: none;
+.content{
+    height: 1000px;
+    display: flex;
+}
+
+.meow{
+    height: 100px;
+    /* height: 1000px; */
+    /* align-content: center; */
+    /* justify-content: center; */
+}
+
+.hero_text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
 }
