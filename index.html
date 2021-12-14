@@ -17,9 +17,6 @@
         body{
             background-image: url('img/nw_header_img.jpg');
             background-size: 100px;
-            margin: 0;
-            border: 0;
-            padding: 0;
         }
 
         .content{
@@ -29,21 +26,16 @@
 
         .hero_image{
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero_niqqy.jpg");
-            /* background-size: 800px; */
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            position: relative;
             height: 800px;
-            /* height: 1200px;
-            background-size: cover;
-            position: relative; */
         }
     </style>
 </head>
 <body>
-    <header class="init_header">
-        <h2>Niqqy Woofaj</h2>
-    </header>
+
     <div class="container">
         <nav class="navbar">
             <!-- nav logo class="nav_logo" -->
@@ -51,8 +43,6 @@
             <a href="index.html" class="nav_link">Home</a>
             <a href="about.html" class="nav_link">About</a>
             <a href="contact.html" class="nav_link">Contact</a>
-            <!-- icon example, will properly place when footer is created -->
-            <i class="fab fa-instagram"></i>
         </nav>
     </div>
 
@@ -63,22 +53,27 @@
         </div>
     </div>
 
-    <div class="content">
-        <!-- placeholder sound -->
-        <audio class="meow" controls>
-            <source src="media/bensound-allthat.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-
-        <!-- placeholder video -->
-        <iframe class="meow" width="420" height="315" 
-            src="https://www.youtube.com/embed/QAgMdFHgb1M&controls=1">
-        </iframe>
-        
-        <!-- text placeholderish -->
-        <p clas="meow">You can avoid the image from being repeated by setting the background-repeat property to "no-repeat".</p>
-
+    <div class="muzak">
+        <div class="muzak_text">
+            <h2>Welcome to Niqqy Woofaj!</h2>
+            <p>Press play for a gudtime</p>
+        </div>
+        <div class="muzak_portion">
+            <audio class="allthat" controls>
+                <source src="media/bensound-allthat.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
     </div>
 
+    <div class="index_content">
+        <div class="push"></div>
+    </div>
+
+    <footer>
+        <a href="https://www.instagram.com/srirachy" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/caseyereyes" class="fab fa-linkedin"></a>
+        <p class="footer_copyright">&copy; Niqqy Woofaj <script>document.write(new Date().getFullYear())</script></p>
+    </footer>
 </body>
 </html>

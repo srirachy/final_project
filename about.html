@@ -12,18 +12,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Amiri&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6f231be1f6.js" crossorigin="anonymous"></script>
+    <style>
+
+        body{
+            background-image: url('img/nw_header_img.jpg');
+            background-size: 100px;
+            margin: 0;
+            border: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .content{
+            /* background-image: url('img/pexels-grafixartphoto-samir-belhamra-4254548.jpg'); */
+            background-size: 100px;
+        }
+
+    </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h2>&lt;header&gt;</h2>
-        </header>
         <nav class="navbar">
-            <a href="index.html" class="home_link">Home</a>
-            <a href="about.html" class="about_link">About</a>
-            <a href="contact.html" class="contact_link">Contact</a>
-            <i class="fab fa-instagram"></i>
+            <!-- nav logo class="nav_logo" -->
+            <img src="img/nw_logo_4.png" alt="Niqqy Logo" class="nw_logo">
+            <a href="index.html" class="nav_link">Home</a>
+            <a href="about.html" class="nav_link">About</a>
+            <a href="contact.html" class="nav_link">Contact</a>
         </nav>
     </div>
+
+    <div class="video_content">
+        <div class="video_col_one">
+            <video width="400" height="800" controls muted=1 autoplay=1>
+                <source src="media/nw_icecream_1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- text placeholderish -->
+        <div class="video_col_two">
+            <p clas="video_text">You can avoid the image from being repeated by setting the background-repeat property to "no-repeat".</p>
+        </div>
+    </div>
+
 </body>
+<footer>
+    <a href="https://www.instagram.com/srirachy" class="fab fa-instagram"></a>
+    <a href="https://www.linkedin.com/in/caseyereyes" class="fab fa-linkedin"></a>
+    <p class="footer_copyright">&copy; Niqqy Woofaj <script>document.write(new Date().getFullYear())</script></p>
+</footer>
 </html>

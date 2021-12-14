@@ -1,3 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    min-height: 100vh;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 .container{
     position: -webkit-sticky;
     position: sticky;
@@ -7,10 +26,10 @@
     z-index: 1;
 }
 
-/* .init_header{
+.init_header{
     color: #ffffff;
     background-color: #000000;
-} */
+}
 
 .nw_logo{
     height: 30px;
@@ -41,22 +60,11 @@ header{
 .nav_link{
     text-decoration: none;
     padding: 10px;
+    color: #ab6e00;
 }
 
 .nav_link:hover{
     color: #ffffff;
-}
-
-.content{
-    height: 1000px;
-    display: flex;
-}
-
-.meow{
-    height: 100px;
-    /* height: 1000px; */
-    /* align-content: center; */
-    /* justify-content: center; */
 }
 
 .hero_text{
@@ -66,4 +74,88 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
+}
+
+.index_content{
+    min-height: 100%;
+    /* margin-bottom: 1000px; */
+}
+
+footer{
+    background-color:#002A5E;
+    height: 70px;
+    bottom: 0;
+}
+
+.push{
+    height: 70px;
+}
+
+.footer_copyright{
+    float: left;
+    margin: 25px;
+    color: #ab6e00;
+}
+
+.fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fab:hover{
+    opacity: 0.7;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+
+.fa-linkedin{
+    background: #007bb5;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+
+.muzak{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.video_content{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    /* padding: 10px;
+    margin: 5px; */
+}
+
+.video_col_one{
+    padding: 10px;
+    background-color: #000000;
+}
+
+.video_col_two{
+    padding: 100px;
+    background-color: #f2dbae;
+}
+
+.muzak_portion{
+   display: flex;
+   justify-content: center;
+}
+
+.muzak_text{
+   text-align: center;
+   padding: 10px;
+   color: #ab6e00;
 }
