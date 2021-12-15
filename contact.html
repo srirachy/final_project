@@ -40,16 +40,84 @@
         </nav>
     </div>
 
-    <div class="">
-        
+    <div class="spacing"></div>
+
+    <div class="contact_div">
+        <strong class="contact_header">Get in Touch</strong>
+        <hr class="contact_rounded">
+        <i class="contact_text">We'd love to hear from you</i>
+        <div class="contact_box">
+            <p class="contact_title">Santa Clara</p>
+            <p class="contact_number">408-555-5555</p>
+        </div>
+        <div class="contact_box">
+            <p class="contact_title">Fresno</p>
+            <p class="contact_number">559-555-5555</p>
+        </div>
+        <div class="contact_box">
+            <p class="contact_title">San Francisco</p>
+            <p class="contact_number">415-555-5555</p>
+        </div>
     </div>
 
-    <div class="content">
-        <iframe width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.32674928322!2d-121.89667004914963!3d37.31108714637494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e33511ffbfca5%3A0x6452c8ef296142aa!2sQuality%20Pet%20Spot%20Willow%20Glen!5e0!3m2!1sen!2sus!4v1639479396886!5m2!1sen!2sus" >
-        </iframe>
+    <div class="spacing"></div>
+
+    <div class="g_maps_header">
+        <strong class="g_maps_text">Experience Our Three Locations!</strong>
+        <hr class="g_maps_rounded">
     </div>
 
+    <div class="g_maps">
+        <div class="g_map_one">
+            <strong class="g_map_head">Live Oak Dog Park</strong>
+            <p class="g_map_text">Santa Clara, CA 95054</p>
+            <iframe width="400" height="250" style="border:1;" allowfullscreen="" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d12678.014947893706!2d-121.96103396441261!3d37.401566827263935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d37.4079488!2d-121.95921919999999!4m5!1s0x808fc99e2a8ecbfd%3A0xbe0b172e64aff115!2sdog%20park%20locations!3m2!1d37.3965837!2d-121.94656579999999!5e0!3m2!1sen!2sus!4v1639533781261!5m2!1sen!2sus">
+            </iframe>
+        </div>
+        <div class="g_map_two">
+            <strong class="g_map_head">Basin AH1 Dog Park (New Location)</strong>
+            <p class="g_map_text">Fresno, CA 93722</p>
+            <iframe width="400" height="250" style="border:1;" allowfullscreen="" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1622973.5419821418!2d-122.19194365621597!3d37.39290182625888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d37.4079488!2d-121.95921919999999!4m5!1s0x8094661b26c5e119%3A0x718c35d4ada80916!2sfresno%20dog%20park!3m2!1d36.8052981!2d-119.8687192!5e0!3m2!1sen!2sus!4v1639534056177!5m2!1sen!2sus">
+            </iframe>
+        </div>
+        <div class="g_map_three">
+            <strong class="g_map_head">Lafayette Dog Park</strong>
+            <p class="g_map_text">San Francisco, CA 94109</p>
+            <iframe width="400" height="250" style="border:1;" allowfullscreen="" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d404820.7828836895!2d-122.47436173385567!3d37.56301778609064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d37.4079488!2d-121.95921919999999!4m5!1s0x808580c0fdea8737%3A0x9015c99596d58950!2sdog%20park%20san%20francisco!3m2!1d37.791031!2d-122.4273372!5e0!3m2!1sen!2sus!4v1639534176705!5m2!1sen!2sus">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="spacing"></div>
+
+    <div class="form_head_container">
+        <h3 class="form_header">Contact Form</h3>
+        <hr class="form_rounded">
+    </div>
+    <div class="form_container">
+        <!-- commenting out form action because we dont learn php yet -->
+        <!-- <form action="/action_page.php"> -->
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</optionvalue>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write message..." style="height:200px"></textarea>
+        <input type="submit" value="Submit">
+        <!-- </form> -->
+    </div>
+    
     <footer>
         <a href="https://www.instagram.com/srirachy" class="fab fa-instagram"></a>
         <a href="https://www.linkedin.com/in/caseyereyes" class="fab fa-linkedin"></a>

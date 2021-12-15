@@ -38,7 +38,7 @@ body{
 }
 
 .navbar{
-    background-color:#002A5E;
+    background-color:#002a5e;
     font-family: 'Amiri', serif;
     text-align: right;
     height: 50px;
@@ -64,8 +64,8 @@ body{
 }
 
 .spacing{
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
 }
 
 footer{
@@ -129,7 +129,6 @@ footer{
 
 .gudtime_col_one{
     margin: 10px;
-   
 }
 
 .gudtime_col_two{
@@ -164,10 +163,15 @@ footer{
 
 .welcome_text{
     font-size: 40px;
+    text-transform: uppercase;
 }
 
 .gudtime_text{
     font-size: 30px;
+}
+
+.post_gudtime_text{
+    font-size: 20px;
 }
 
 /* about page css */
@@ -175,8 +179,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 10px;
-    margin: 5px; */
 }
 
 .video_col_one{
@@ -214,8 +216,7 @@ footer{
 
 .c_initial{
     font-size: 50px;
-    color: #5E1109;
-    opacity: 1;
+    color: #5e1109;
 }
 
 hr.rounded{
@@ -223,7 +224,7 @@ hr.rounded{
     border-radius: 5px;
     width: 350px;
     margin: 10px;
-    border-color: #1156AB;
+    border-color: #1156ab;
 }
 
 .c_open{
@@ -238,3 +239,150 @@ hr.rounded{
 }
 
 /* contact page css */
+
+.contact_div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 0), rgba(94, 61, 0, 1));
+    padding: 20px;
+}
+
+.contact_header{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #f2dbae;
+}
+
+.contact_rounded{
+    border-top: 5px solid #bbb;
+    border-radius: 5px;
+    width: 180px;
+    margin: 10px;
+    border-color: #002a5e;
+}
+
+.contact_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact_text{
+    font-size: 20px;
+    color: #f2dbae;
+}
+
+.contact_title{
+    font-size: 20px;
+    color: #f2dbae;
+}
+
+.contact_number{    
+    font-size: 20px;
+    color: #f2dbae;
+    border-style: solid;
+    border-color: #002a5e;
+    padding: 10px;
+}
+
+.g_maps_header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 1), rgba(94, 61, 0, 0));
+}
+
+.g_maps_text{
+    font-size: 30px;
+    color: #f2dbae;
+}
+
+.g_maps_rounded{
+    border-top: 5px solid #bbb;
+    border-radius: 5px;
+    width: 400px;
+    margin: 10px;
+    border-color: #5e3d00;
+}
+
+.g_maps{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 1), rgba(94, 61, 0, 0));
+}
+
+.g_map_one{
+    margin: 30px;
+}
+
+.g_map_two{
+    margin: 30px;
+}
+
+.g_map_three{
+    margin: 30px;
+}
+
+.g_map_head{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f2dbae;
+}
+
+.g_map_text{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #f2dbae;
+}
+
+.form_head_container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 0), rgba(94, 61, 0, 1));
+}
+
+.form_header{
+    font-size: 30px;
+    color: #f2dbae;
+    text-transform: uppercase;
+}
+
+.form_rounded{
+    border-top: 5px solid #bbb;
+    border-radius: 5px;
+    width: 150px;
+    margin: 10px;
+    border-color: #002a5e;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: #1156ab;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form_container{
+    border-radius: 5px;
+    background-color:#f2f2f2;
+}
