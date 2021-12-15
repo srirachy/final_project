@@ -19,7 +19,7 @@ body{
     margin: 0 auto;
 }
 
-/* nav bar container */
+/* nav bar css start */
 .container{
     position: -webkit-sticky;
     position: sticky;
@@ -60,6 +60,7 @@ body{
     color: #ffffff;
 }
 
+/* footer css start */
 footer{
     background-color:#002a5e;
     height: 70px;
@@ -74,6 +75,7 @@ footer{
     font-family: 'Podkova', serif;
 }
 
+/* font awesome css start */
 .fab{
     padding: 20px;
     font-size: 30px;
